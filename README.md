@@ -36,16 +36,16 @@ cd TMDB_API_Search
 ```
 
 ### 2️⃣ Créer un environnement virtuel (optionnel mais recommandé)
-python -m venv venv
-source venv/bin/activate   [Sur macOS/Linux]
-venv\Scripts\activate      [Sur Windows]
+- python -m venv venv
+- source venv/bin/activate   [Sur macOS/Linux]
+- venv\Scripts\activate      [Sur Windows]
 
 ### 3️⃣ Installer les dépendances
 pip install -r requirements.txt
 
 ### 4️⃣ Configurer l'API TMDB
 Crée un fichier .env à la racine du projet et ajoute :
-TMDB_API_KEY=VOTRE_CLE_API
+- TMDB_API_KEY=VOTRE_CLE_API
 
 ### 5️⃣ Lancer le backend de l'application
 uvicorn main:app --reload
