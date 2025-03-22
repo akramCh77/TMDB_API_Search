@@ -37,8 +37,8 @@ cd TMDB_API_Search
 
 ### 2️⃣ Créer un environnement virtuel (optionnel mais recommandé)
 python -m venv venv
-source venv/bin/activate  # Sur macOS/Linux
-venv\Scripts\activate  # Sur Windows
+source venv/bin/activate   [Sur macOS/Linux]
+venv\Scripts\activate      [Sur Windows]
 
 ### 3️⃣ Installer les dépendances
 pip install -r requirements.txt
